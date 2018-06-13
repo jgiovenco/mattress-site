@@ -19,7 +19,7 @@ p {
 }
 
 h3 {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -32,4 +32,13 @@ h1 {
 
 span {
   color: #F7CA18;
+}
+
+header {
+  background-image: url(https://picsum.photos/200/300/?random);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
 }
