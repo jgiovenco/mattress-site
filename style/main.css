@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 1px solid black;
+}
+
+section, header, footer {
+  padding: 5%;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+span {
+  color: #F7CA18;
+}
