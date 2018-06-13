@@ -1,10 +1,11 @@
+/* - - - - - - - - Reset - - - - - - - -*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   border: 1px solid black;
 }
-
+/* - - - - - - - - General Styles - - - - - - - -*/
 section, header, footer {
   padding: 5%;
 }
@@ -27,13 +28,13 @@ h2 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 5rem;
 }
 
 span {
   color: #F7CA18;
 }
-
+/* - - - - - - - - Help Classes - - - - - - - -*/
 .no-padding {
   padding: 0;
 }
@@ -41,7 +42,7 @@ span {
 .padded-10 {
   padding: 10%;
 }
-
+/* - - - - - - - - Header - - - - - - - -*/
 header {
   background-image: url(https://picsum.photos/1500/1000/?random);
   min-height: 100vh;
@@ -51,6 +52,7 @@ header {
   color: white;
 }
 
+/* - - - - - - - - Four Square - - - - - - - -*/
 .tl {
   background-image: url(https://picsum.photos/400/400/?random);
   background-position: center;
@@ -61,4 +63,24 @@ header {
   background-image: url(https://picsum.photos/400/400/?random);
   background-position: center;
   background-size: cover;
+}
+
+/* - - - - - - - - Yellow Section - - - - - - - -*/
+.pencil-text {
+  text-align: center;
+  background-image: url(https://picsum.photos/200/300/?random);
+  background-position: center;
+  background-size: cover;
+  padding: 10%;
+}
+.pencil-text h3 {
+  font-size: 1.8rem;
+}
+
+.pencil-text h2{
+  font-size: 4.5rem;
+}
+
+.pencil-text span {
+  color: white;
 }
