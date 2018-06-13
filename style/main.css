@@ -8,6 +8,7 @@
 /* - - - - - - - - General Styles - - - - - - - -*/
 section, header, footer {
   padding: 5%;
+  font-family: 'Prompt', sans-serif;
 }
 
 h1, h2 {
@@ -42,6 +43,10 @@ span {
 .padded-10 {
   padding: 10%;
 }
+
+.right-align {
+  text-align: right;
+}
 /* - - - - - - - - Header - - - - - - - -*/
 header {
   background-image: url(https://picsum.photos/1500/1000/?random);
@@ -71,7 +76,7 @@ header {
   background-image: url(https://picsum.photos/200/300/?random);
   background-position: center;
   background-size: cover;
-  padding: 10%;
+  padding: 12%;
 }
 .pencil-text h3 {
   font-size: 1.8rem;
@@ -84,3 +89,25 @@ header {
 .pencil-text span {
   color: white;
 }
+
+/* - - - - - - - - Quote Section - - - - - - - -*/
+.quote-text {
+  padding: 10%;
+}
+
+.quote-text h4 {
+  font-size:5rem;
+  color: grey;
+}
+
+.quote-text h3 {
+  font-size: 1.4rem;
+  padding-top: 6%;
+}
+
+.quote-text p {
+  color: grey;
+  font-size: 1.1rem;
+  padding-top: 2%;
+}
+/* - - - - - - - - Footer Section - - - - - - - -*/
