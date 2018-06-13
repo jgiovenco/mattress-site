@@ -3,35 +3,28 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 /* - - - - - - - - General Styles - - - - - - - -*/
-section, header, footer {
-  padding: 5%;
-  font-family: 'Prompt', sans-serif;
+body {
+  font-family: 'Montserrat Alternates', sans-serif;
 }
-
-h1, h2 {
-  font-weight: bold;
+section, footer {
+  padding: 10%;
 }
-
 p {
   font-size: 1rem;
   line-height: 1.4;
 }
-
 h3 {
   font-size: 2rem;
 }
-
 h2 {
   font-size: 2.5rem;
 }
-
 h1 {
-  font-size: 5rem;
+  font-size: 6rem;
 }
-
 span {
   color: #F7CA18;
 }
@@ -39,75 +32,75 @@ span {
 .no-padding {
   padding: 0;
 }
-
 .padded-10 {
   padding: 10%;
 }
-
 .right-align {
   text-align: right;
 }
-/* - - - - - - - - Header - - - - - - - -*/
-header {
-  background-image: url(https://picsum.photos/1500/1000/?random);
-  min-height: 100vh;
+.background-image {
   background-position: center;
   background-size: cover;
+}
+/* - - - - - - - - Header - - - - - - - -*/
+header {
+  background-image: url(../images/leaves.jpg);
+  min-height: 100vh;
   text-align: center;
   color: white;
 }
-
+header h3 {
+  font-weight:lighter;
+}
+header h1 {
+  font-weight: bolder;
+}
 /* - - - - - - - - Four Square - - - - - - - -*/
 .tl {
-  background-image: url(https://picsum.photos/400/400/?random);
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/dog.jpg);
 }
-
 .br {
-  background-image: url(https://picsum.photos/400/400/?random);
-  background-position: center;
-  background-size: cover;
+  background-image: url(../images/bed.jpg);
 }
-
 /* - - - - - - - - Yellow Section - - - - - - - -*/
 .pencil-text {
   text-align: center;
-  background-image: url(https://picsum.photos/200/300/?random);
-  background-position: center;
-  background-size: cover;
-  padding: 12%;
+  background-image: url(../images/pencil.jpg);
 }
 .pencil-text h3 {
   font-size: 1.8rem;
 }
-
 .pencil-text h2{
   font-size: 4.5rem;
 }
-
 .pencil-text span {
   color: white;
 }
-
 /* - - - - - - - - Quote Section - - - - - - - -*/
 .quote-text {
-  padding: 10%;
+  color: grey;
 }
-
 .quote-text h4 {
   font-size:5rem;
-  color: grey;
 }
-
 .quote-text h3 {
-  font-size: 1.4rem;
+  font-size: 2rem;
   padding-top: 6%;
+  font-weight: 100;
+  color: black;
 }
-
 .quote-text p {
-  color: grey;
   font-size: 1.1rem;
   padding-top: 2%;
 }
 /* - - - - - - - - Footer Section - - - - - - - -*/
+.connect {
+  background-color: #192b37;
+  color: white;
+}
+.connect h2 {
+  font-size: 4.5rem;
+}
+.connect span {
+  display: block;
+}
