@@ -14,7 +14,7 @@ h1, h2 {
 }
 
 p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -23,7 +23,7 @@ h3 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 h1 {
@@ -34,11 +34,31 @@ span {
   color: #F7CA18;
 }
 
+.no-padding {
+  padding: 0;
+}
+
+.padded-10 {
+  padding: 10%;
+}
+
 header {
-  background-image: url(https://picsum.photos/200/300/?random);
+  background-image: url(https://picsum.photos/1500/1000/?random);
   min-height: 100vh;
   background-position: center;
   background-size: cover;
   text-align: center;
   color: white;
+}
+
+.tl {
+  background-image: url(https://picsum.photos/400/400/?random);
+  background-position: center;
+  background-size: cover;
+}
+
+.br {
+  background-image: url(https://picsum.photos/400/400/?random);
+  background-position: center;
+  background-size: cover;
 }
